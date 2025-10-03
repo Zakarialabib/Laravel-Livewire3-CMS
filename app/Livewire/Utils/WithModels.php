@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace App\Livewire\Utils;
 
 use Livewire\Attributes\Computed;
-use App\Models\{Page, PageSetting, Partner, Section, Service, Slider};
+use App\Models\{PageSetting, Partner, Section, Service, Slider};
 
 trait WithModels
 {

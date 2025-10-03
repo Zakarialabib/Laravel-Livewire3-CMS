@@ -36,7 +36,7 @@ if ( ! function_exists('settings')) {
     function settings()
     {
         return cache()->rememberForever('settings', static function () {
-            return \App\Models\Settings::firstOrFail();
+            return App\Models\Settings::firstOrFail();
         });
     }
 }
