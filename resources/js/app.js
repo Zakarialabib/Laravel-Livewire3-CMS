@@ -1,13 +1,11 @@
 import './bootstrap';
 import "perfect-scrollbar/css/perfect-scrollbar.css";
+
 import swal from 'sweetalert2';
 window.Swal = swal;
 
 import Sortable from 'sortablejs';
 window.Sortable = Sortable;
-
-import { livewire_hot_reload } from 'virtual:livewire-hot-reload'
-livewire_hot_reload();
 
 import { Livewire, Alpine } from '../../vendor/livewire/livewire/dist/livewire.esm';
 
